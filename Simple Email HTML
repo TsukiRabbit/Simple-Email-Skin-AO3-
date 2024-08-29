@@ -1,0 +1,34 @@
+<div class="hide">
+  <i
+    >Turning creator's style on will reveal non-essential decorative
+    elements.</i
+  >
+</div>
+
+<div class="email-container">
+  <div class="email-address">
+    <span class="date"> <span class="hide">Date:</span> DATE GOES HERE </span>
+
+    <div class="email-frombox">
+      <span class="hide">From: </span>'FROM' EMAIL ADDRESS GOES HERE
+    </div>
+
+    <div class="email-subject">
+      <span class="hide">Subject: </span>EMAIL SUBJECT GOES HERE
+    </div>
+
+    <div class="email-tobox">
+      <span class="hide">To: </span><span>'TO' EMAIL ADDRESS GOES HERE</span
+      ><span> ruvie@wammy.uk</span>
+    </div>
+  </div>
+  <div class="email-body">
+WRITE YOUR EMAIL HERE
+  </div>
+
+  <div class="email-actionbox">
+    <div>reply</div>
+    <div>reply all</div>
+    <div>forward</div>
+  </div>
+</div>
