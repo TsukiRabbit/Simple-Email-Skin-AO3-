@@ -7,18 +7,18 @@
 
 <div class="email-container">
   <div class="email-address">
-    <span class="date"> <span class="hide">Date:</span> DATE GOES HERE </span>
+    <span class="date"> <span class="hide">Date:</span> DATE</span>
 
     <div class="email-frombox">
-      <span class="hide">From: </span>'FROM' EMAIL ADDRESS GOES HERE
+      <span class="hide">From: </span>'FROM' EMAIL ADDRESS
     </div>
 
     <div class="email-subject">
-      <span class="hide">Subject: </span>EMAIL SUBJECT GOES HERE
+      <span class="hide">Subject: </span>EMAIL SUBJECT
     </div>
 
     <div class="email-tobox">
-      <span class="hide">To: </span><span>'TO' EMAIL ADDRESS GOES HERE</span
+      <span class="hide">To: </span><span>'TO' EMAIL ADDRESS</span
       ><span> ruvie@wammy.uk</span>
     </div>
   </div>
