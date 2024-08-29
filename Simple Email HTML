@@ -7,18 +7,18 @@
 
 <div class="email-container">
   <div class="email-address">
-    <span class="date"> <span class="hide">Date:</span> DATE</span>
+    <span class="date"> <span class="email-hide">Date:</span> DATE</span>
 
     <div class="email-frombox">
-      <span class="hide">From: </span>'FROM' EMAIL ADDRESS
+      <span class="email-hide">From: </span>'FROM' EMAIL ADDRESS
     </div>
 
     <div class="email-subject">
-      <span class="hide">Subject: </span>EMAIL SUBJECT
+      <span class="email-hide">Subject: </span>EMAIL SUBJECT
     </div>
 
     <div class="email-tobox">
-      <span class="hide">To: </span><span>'TO' EMAIL ADDRESS</span
+      <span class="email-hide">To: </span><span>'TO' EMAIL ADDRESS</span
       >
     </div>
   </div>
