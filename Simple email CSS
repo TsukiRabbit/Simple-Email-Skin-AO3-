@@ -1,3 +1,4 @@
+
 /* -- Hides text when creator's style is turned on; displays text when creator's style is turned off. --*/
 
 .email-hide {
@@ -50,7 +51,7 @@
   }
   
 .email-frombox:hover {
-    color: #9e1fff;
+    color: #59B5E0;
     cursor:pointer;
   }
   
@@ -59,6 +60,10 @@
     padding-bottom: .5rem;
     padding-top: .3rem;
   }
+
+.email-subject:hover {
+  cursor: pointer;
+}
   
 .email-tobox {
     display: flex;
