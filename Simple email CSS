@@ -31,6 +31,8 @@
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     background-color: white;
     border: 1px solid #e8e8e8;
+    overflow: auto;
+    max-height: 500px;
   }
   
 .email-address {
@@ -123,3 +125,62 @@
     background-color: #a6a6a6;
     cursor:pointer;
   }
+
+
+  /* -- Email ends here --*/
+  
+.header1 {
+    color: #1B5EBE;
+    font-size: 2em;
+    margin: auto;
+    text-align: center;
+    padding: .5em;
+    border-bottom: .3em solid #1B5EBE;
+  }
+  
+.header2 {
+    color: #2B7CD3;
+    font-size: 1.5em;
+    margin: auto;
+    text-align: left;
+    padding: .1em;
+    border-bottom: .1em solid #2B7CD3;
+  }
+  
+.header3 {
+    color: #1B5EBE;
+    font-size: 1.8em;
+    font-weight: bold;
+    margin: auto;
+    text-align: left;
+    padding: .1em;
+    visibility: visible;
+  }
+  
+a {
+    visibility: hidden;
+  }
+  
+a::before {
+    content: "\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0l@wammy.uk";
+    visibility: visible;
+  }
+  
+a:hover::before {
+    visibility: visible;
+    color: #9e1fff;
+  }
+  
+
+  li {
+    list-style: square; 
+
+}
+
+ul li p {
+    margin-top: .2em; 
+} 
+
+.forbidden:hover {
+    cursor:help;
+}
