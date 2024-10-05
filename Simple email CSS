@@ -1,4 +1,8 @@
 
+
+
+/*-- Start Here --*/
+
 /* -- Hides text when creator's style is turned on; displays text when creator's style is turned off. --*/
 
 .email-hide {
@@ -33,12 +37,12 @@
     border: 1px solid #e8e8e8;
     overflow: auto;
     max-height: 500px;
+    padding: .5rem;
   }
   
 .email-address {
     display: flex;
     flex-direction: column;
-    position: relative;
     border-bottom: 1px solid #e8e8e8;
     padding-bottom: 1rem;
     padding-left: 1.4rem;
@@ -50,12 +54,29 @@
     font-size: 1.01rem;
     font-weight: bold;
     color: #1899d5;
+    flex-grow: 1; 
   }
   
 .email-frombox:hover {
     color: #59B5E0;
     cursor:pointer;
   }
+
+  .date {
+    color: gray;
+    font-size: .7rem;
+    border: none;
+    padding: 1rem;
+    margin-left: auto;
+    margin-top: -0.8rem;
+ 
+  }
+
+.email-from-date-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+} 
   
 .email-subject {
     font-weight: bold;
@@ -93,14 +114,6 @@
     padding: 2em 2em 0 2rem;
   }
   
-.date {
-    color: gray;
-    position: absolute;
-    right: 1em;
-    top: 1em;
-    font-size: .7rem;
-    border: none;
-  }
 
   
 .email-actionbox {
