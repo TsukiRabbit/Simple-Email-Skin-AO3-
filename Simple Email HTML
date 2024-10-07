@@ -1,9 +1,7 @@
 
     <div class="email-hide">
-        <i
-          >Turning creator's style on will reveal non-essential decorative
-          elements.</i
-        >
+        <i>Turning creator's style on will reveal non-essential decorative
+          elements.</i>
       </div>
       
       <div class="email-container">
@@ -23,8 +21,7 @@
           </div>
       
           <div class="email-tobox">
-            <span class="email-hide">To: </span><span>'TO' EMAIL ADDRESS</span
-            >
+            <span class="email-hide">To: </span><span>'TO' EMAIL ADDRESS</span>
           </div>
         </div>
         <div class="email-body">
